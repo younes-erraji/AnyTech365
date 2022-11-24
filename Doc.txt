@@ -1,0 +1,16 @@
+PHP: Library API
+Before Running This application Please create a mysql database named: libraryapi
+
+After Creating the Database please run inside this directory => php artisan migrate
+
+For running the application => php artisan serve
+    Link => http://127.0.0.1:8000/api
+
+API Links:
+    1 - Get all Books: http://127.0.0.1:8000/api/books
+    1 - Get one Book By its ID: http://127.0.0.1:8000/api/book/{id}
+    1 - Delete a Book By its ID: http://127.0.0.1:8000/api/book/delete
+    1 - Update a Book By its ID: http://127.0.0.1:8000/api/book/update
+
+C#: AspWebAPI
+I am Using SQL Server Database
